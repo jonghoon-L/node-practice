@@ -1,11 +1,11 @@
 const express = require('express')
 const app = express()
 
+app.listen(3000)
+
 app.get('/', function (req, res) {
     res.json(book)
   })
-
-app.listen(3000)
 
 let book = {
   title: "종훈 책",
