@@ -7,9 +7,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.19.2",
-    "figlet": "^1.7.0"
-  }
+    "figlet": "^1.7.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "description": ""
 }
