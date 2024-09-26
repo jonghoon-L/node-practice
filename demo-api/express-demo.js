@@ -1,7 +1,10 @@
 const express = require('express')
 const app = express()
+const dotenv = require('dotenv')
 
-app.listen(3000)
+dotenv.config()
+
+app.listen(process.env.PORT)
 
 app.get('/', function (req, res) {
     res.json(book)
